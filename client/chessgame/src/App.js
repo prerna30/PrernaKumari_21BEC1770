@@ -24,7 +24,7 @@ const App = () => {
 
     return (
         <div style={styles.container}>
-            <h1>Khushi Tolani 21BCE1749</h1>
+            <h1>Prerna Kumari 21BEC1770</h1>
             {gameState && (
                 <>
                     <div style={styles.boardContainer}>

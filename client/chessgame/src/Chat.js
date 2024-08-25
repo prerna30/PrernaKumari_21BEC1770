@@ -7,7 +7,7 @@ const Chat = ({ websocket }) => {
     const sendMessage = () => {
         if (message) {
             websocket.send(JSON.stringify({ type: 'chat', message }));
-            setMessages([...messages, { sender: 'Khushi', text: message }]);
+            setMessages([...messages, { sender: 'Prerna', text: message }]);
             setMessage('');
         }
     };

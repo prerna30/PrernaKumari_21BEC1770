@@ -3,8 +3,8 @@ import React from 'react';
 const MovementRules = () => {
     return (
         <div style={{ marginTop: '20px', borderTop: '1px solid black', paddingTop: '10px' }}>
-            <h2 style={{color:'red'}}>Movement Rules</h2>
-            <ul style={{color:'blue'}}>
+            <h2 style={{color:'blue'}}>Movement Rules</h2>
+            <ul style={{color:'brown'}}>
                 <li ><strong>Pawn (P):</strong> Moves 1 step in any direction (L, R, F, B).</li>
                 <li><strong>Hero1 (H1):</strong> Moves 2 steps straight in any direction (L, R, F, B). Kills any opponent's character in its path.</li>
                 <li><strong>Hero2 (H2):</strong> Moves 2 steps diagonally in any direction (FL, FR, BL, BR). Kills any opponent's character in its path.</li>

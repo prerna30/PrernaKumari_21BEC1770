@@ -26,7 +26,7 @@ const GameBoard = ({ gameState, websocket }) => {
                             width: '50px',
                             height: '50px',
                             border: '1px solid black',
-                            backgroundColor: (rowIndex + colIndex) % 2 === 0 ? 'Brown' : 'White',
+                            backgroundColor: (rowIndex + colIndex) % 2 === 0 ? 'Black' : 'White',
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
